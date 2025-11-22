@@ -1,4 +1,4 @@
-[![CI](https://github.com/huang3527/microseg-vision/actions/workflows/tests.yml/badge.svg)](https://github.com/huang3527/microseg-vision/actions/workflows/tests.yml)
+[![CI](https://github.com/huang3527/microseg-vision/actions/workflows/tests.yml/badge.svg)](https://github.com/huang3527/microseg-vision/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # microseg-vision
