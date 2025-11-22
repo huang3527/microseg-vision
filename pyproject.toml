@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "microseg-vision"
+version = "0.1.0"
+description = "Tiny 2D segmentation demo project in PyTorch"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Steve H.", email = "huanghl1108@gmail.com" }]
+dependencies = [
+  "numpy",
+  "Pillow",
+  "torch",
+  "torchvision",
+  "pyyaml",
+  "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["black", "ruff", "mypy", "pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
