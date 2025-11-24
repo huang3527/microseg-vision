@@ -15,5 +15,5 @@ train:
   lr: 0.001
   weight_decay: 0.0
 
-device: "cuda"   # or "cpu"
+device: "cpu"   # or "cuda"
 output_dir: "runs/example"
