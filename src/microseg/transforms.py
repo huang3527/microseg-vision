@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Callable, Dict, List, Optional, Sequence
+from typing import Callable, Dict, Sequence
 
 import numpy as np
 import torch
